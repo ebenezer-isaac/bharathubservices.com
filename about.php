@@ -90,7 +90,7 @@
                         <div class="aboutDescs">
                             <h5 class="sub_title">About Us</h5>
                             <h2 class="sec_title">Concerted Efforts To Serve Better.</h2>
-                            <p class="ind_lead">Dream big with get more inspiring solutions from here.</p>
+                            <p class="ind_lead">Making Transportation Fast and Safe.</p>
                             <p>
                                 Our Government recognized company is renowned for providing transportational services for industrial goods for many years. To encourage a green and Swatch India, we also provide transportation of recyclable waste. Customer satisfaction being our prime goal, we resolve all customer issues within 24 hours.
                             </p>
