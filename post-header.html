@@ -5,6 +5,7 @@
             <script>
             	if(screen.width>600){
             		document.getElementById("callButton").innerHTML='<a href="tel:+917878323329" class="ind_btn_2 text-center"><span>Make a call</span></a>';
+                    document.getElementById("overlayLogo").innerHTML='<a href="index.php"><img src="images/favicon.png" alt=""></a>';
             	};
             </script>
         </div>
@@ -67,9 +68,7 @@
 					
                         <ul class="dl-menu dl-menuopen">
                         	<li>
-                        		<div class="popup_logos">
-	                    			<a href="index.php"><img src="images/favicon.png" alt=""></a>
-                				</div>
+                        		<div class="popup_logos" id='overlayLogo'></div>
                         	</li>
                             <li class="current-menu-item">
                                 <a href="index.php">Home</a>
