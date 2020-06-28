@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <title>Home | Bharat Hub Services</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preload" as="font" href="fonts/revicons.woff">
         <link rel="preload" as="font" href="fonts/fa-regular-400.woff2">
         <link rel="preload" as="font" href="fonts/fa-light-300.woff2">
         <link rel="preload" as="font" href="fonts/fa-solid-900.woff2">
