@@ -20,6 +20,7 @@
         <link rel="stylesheet" type="text/css" href="css/theme.css" media="print" onload="this.media='all'">
         <link rel="stylesheet" type="text/css" href="css/responsive.css" media="print" onload="this.media='all'">
         <link rel="stylesheet" type="text/css" href="css/presets/color1.css" id="colorChange" media="print" onload="this.media='all'">
+        <link rel="preload" as="font" href="/fonts/revicons.woff">
         <link rel="icon" type="image/png" href="images/favicon.png">
         <meta name="google-site-verification" content="_8snGB9RYHbpOTROhkmCqT_sah-IUWDPFWilEaATA-M">
         <meta name="description" content="Final Year B.C.A Student at Maharaja Sayajirao University of Baroda | IoT and Java Web Developer | CEH | Transcriptionist | Freelancer">
