@@ -1,15 +1,16 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
+        <?php include "admin/parser.php"; ?>
         <meta charset="UTF-8">
-        <title>Home | Bharat Hub Services</title>
+        <title>Home | <?php echo $data["title"]; ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preload" as="font" href="fonts/fa-regular-400.woff2">
         <link rel="preload" as="font" href="fonts/fa-light-300.woff2">
         <link rel="preload" as="font" href="fonts/fa-solid-900.woff2">
         <link rel="preload" as="font" href="fonts/revicons.woff">
         <link rel="preload" as="font" href="fonts/fa-brands-400.woff2">
-        <style>@charset "UTF-8";:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,::after,::before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%}section{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}h2,h3,h5{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}ul{margin-top:0;margin-bottom:1rem}a{color:#007bff;text-decoration:none;background-color:transparent}img{vertical-align:middle;border-style:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h2,h3,h5{margin-bottom:.5rem;font-weight:500;line-height:1.2}h2{font-size:2rem}h3{font-size:1.75rem}h5{font-size:1.25rem}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1170px}}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col-lg-6,.col-md-6,.col-xl-12,.col-xl-4,.col-xl-6{position:relative;width:100%;padding-right:15px;padding-left:15px}@media (min-width:768px){.col-md-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}}@media (min-width:992px){.col-lg-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}}@media (min-width:1200px){.col-xl-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.col-xl-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-xl-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}.text-center{text-align:center!important}@font-face{font-display:swap;font-family:IcoFont;font-weight:400;font-style:Regular;src:url(/fonts/icofont.woff2) format("woff2"),url(/fonts/icofont.woff) format("woff")}[class*=" icofont-"]{font-family:IcoFont!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;white-space:nowrap;word-wrap:normal;direction:ltr;line-height:inherit;-webkit-font-feature-settings:"liga";-webkit-font-smoothing:antialiased}.icofont-engineer:before{content:"\e999"}.icofont-truck:before{content:"\ee3d"}.icofont-recycle:before{content:"\efd0"}body,html{margin:0;padding:0}body{font-family:Rubik,sans-serif;font-size:14px;line-height:26px;color:#959ba9;font-weight:400;letter-spacing:0}h2,h3,h5{font-family:'Barlow Condensed',sans-serif;font-weight:600;color:#06163a;margin:0 0 15px}.barlow{font-family:'Barlow Condensed',sans-serif}a{color:#ff5e14;text-decoration:none}.rev_slider_wrapper{position:relative;z-index:0;width:100%}.rev_slider{position:relative;overflow:visible}.rev_slider img{max-width:none!important;margin:0;padding:0;border:none}.rev_slider>ul,.rev_slider>ul>li,.rev_slider>ul>li:before{list-style:none!important;position:absolute;margin:0!important;padding:0!important;overflow-x:visible;overflow-y:visible;background-image:none;background-position:0 0;text-indent:0;top:0;left:0}.rev_slider>ul>li,.rev_slider>ul>li:before{visibility:hidden}.rev_slider .tp-caption{position:relative;visibility:hidden;white-space:nowrap;display:block;-webkit-font-smoothing:antialiased!important;z-index:1}.icon_box_01{position:relative;background:#fff;padding:60px 25px 54px}.icon_box_01.box_shadow{box-shadow:0 8px 15px rgba(202,211,255,.2)}.icon_box_01 i.bigger{font-size:200px;color:#fff9f9;position:absolute;width:100%;text-align:center;z-index:1;left:0;top:19px;line-height:.82;letter-spacing:0}.icon_box_01 *{position:relative;z-index:2}.icon_box_01 i.smaller{font-size:40px;color:#ff5e14;display:block;margin:0 0 39px}.icon_box_01 span{display:block;background:#ffddce;width:34px;height:2px;margin:0 auto 31px}.icon_box_01 h3{font-size:30px;line-height:40px;letter-spacing:-.9px;margin:0 0 21px}.icon_box_01 p{margin:0}.slider_02{width:100%;max-height:100vh;background:#06163a;position:relative;overflow:hidden}.bigHeading{letter-spacing:-3px}.featureSection2{position:relative;margin-top:-203px;z-index:2;padding-bottom:120px}.experienceSection{padding:0 0 120px;position:relative}.aboutCompanys{position:relative;background:url(/images/bg/3.jpg) repeat;border:10px solid #f3f3ff;padding:87px 0 77px}.abc_left{padding-left:80px}.aboutCompanys h5{font-size:16px;line-height:1.2;color:#ff5e14;font-weight:500;margin:0 0 18px;text-transform:uppercase;font-family:Rubik,sans-serif}.aboutCompanys h2{font-size:80px;line-height:90px;font-weight:600;margin:0;letter-spacing:-2.4px}.aboutCompanys p{margin:-3px 0 24px}@media (min-width:1200px) and (max-width:1600px){.featureSection2{margin-top:-120px}}@media (min-width:992px) and (max-width:1199px){.icon_box_01{margin-bottom:30px;padding-left:15px;padding-right:15px}.icon_box_01 h3{font-size:28px;line-height:36px}}@media (min-width:768px) and (max-width:991px){.icon_box_01{margin-bottom:30px}.abc_left{padding-left:20px;margin-bottom:30px}}@media (max-width:767px){.featureSection2{margin-top:-100px}.bigHeading{letter-spacing:0}.icon_box_01{margin-bottom:30px}.abc_left{padding:0 15px;margin-bottom:30px}.aboutCompanys h2{font-size:60px;line-height:65px}.aboutCompanys{padding-bottom:100px}}</style>
+        <style>@charset "UTF-8";:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,::after,::before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%}section{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}h2,h3,h5{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}ul{margin-top:0;margin-bottom:1rem}a{color:#007bff;text-decoration:none;background-color:transparent}img{vertical-align:middle;border-style:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h2,h3,h5{margin-bottom:.5rem;font-weight:500;line-height:1.2}h2{font-size:2rem}h3{font-size:1.75rem}h5{font-size:1.25rem}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1170px}}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col-lg-6,.col-md-6,.col-xl-12,.col-xl-4,.col-xl-6{position:relative;width:100%;padding-right:15px;padding-left:15px}@media (min-width:768px){.col-md-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}}@media (min-width:992px){.col-lg-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}}@media (min-width:1200px){.col-xl-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.col-xl-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-xl-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}.text-center{text-align:center!important}@font-face{font-display:swap;font-family:IcoFont;font-weight:400;font-style:Regular;src:url(/fonts/icofont.woff2) format("woff2"),url(/fonts/icofont.woff) format("woff")}[class*=" icofont-"]{font-family:IcoFont!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;white-space:nowrap;word-wrap:normal;direction:ltr;line-height:inherit;-webkit-font-feature-settings:"liga";-webkit-font-smoothing:antialiased}.icofont-engineer:before{content:"\e999"}.icofont-truck:before{content:"\ee3d"}.icofont-recycle:before{content:"\efd0"}body,html{margin:0;padding:0}body{font-family:Rubik,sans-serif;font-size:14px;line-height:26px;color:#959ba9;font-weight:400;letter-spacing:0}h2,h3,h5{font-family:'Barlow Condensed',sans-serif;font-weight:600;color:#06163a;margin:0 0 15px}.barlow{font-family:'Barlow Condensed',sans-serif}a{color:#ff5e14;text-decoration:none}.rev_slider_wrapper{position:relative;z-index:0;width:100%}.rev_slider{position:relative;overflow:visible}.rev_slider img{max-width:none!important;margin:0;padding:0;border:none}.rev_slider>ul,.rev_slider>ul>li,.rev_slider>ul>li:before{list-style:none!important;position:absolute;margin:0!important;padding:0!important;overflow-x:visible;overflow-y:visible;background-image:none;background-position:0 0;text-indent:0;top:0;left:0}.rev_slider>ul>li,.rev_slider>ul>li:before{visibility:hidden}.rev_slider .tp-caption{position:relative;visibility:hidden;white-space:nowrap;display:block;-webkit-font-smoothing:antialiased!important;z-index:1}.icon_box_01{position:relative;background:#fff;padding:60px 25px 54px}.icon_box_01.box_shadow{box-shadow:0 8px 15px rgba(202,211,255,.2)}.icon_box_01 i.bigger{font-size:200px;color:#fff9f9;position:absolute;width:100%;text-align:center;z-index:1;left:0;top:19px;line-height:.82;letter-spacing:0}.icon_box_01 *{position:relative;z-index:2}.icon_box_01 i.smaller{font-size:40px;color:#ff5e14;display:block;margin:0 0 39px}.icon_box_01 span{display:block;background:#ffddce;width:34px;height:2px;margin:0 auto 31px}.icon_box_01 h3{font-size:30px;line-height:40px;letter-spacing:-.9px;margin:0 0 21px}.icon_box_01 p{margin:0}.slider_02{width:100%;max-height:100vh;background:#06163a;position:relative;overflow:hidden}.bigHeading{letter-spacing:-3px}.featureSection2{position:relative;margin-top:-203px;z-index:2;padding-bottom:120px}.experienceSection{padding:0 0 120px;position:relative}.aboutCompanys{position:relative;border:10px solid #f3f3ff;padding:87px 0 77px}.abc_left{padding-left:80px}.aboutCompanys h5{font-size:16px;line-height:1.2;color:#ff5e14;font-weight:500;margin:0 0 18px;text-transform:uppercase;font-family:Rubik,sans-serif}.aboutCompanys h2{font-size:80px;line-height:90px;font-weight:600;margin:0;letter-spacing:-2.4px}.aboutCompanys p{margin:-3px 0 24px}@media (min-width:1200px) and (max-width:1600px){.featureSection2{margin-top:-120px}}@media (min-width:992px) and (max-width:1199px){.icon_box_01{margin-bottom:30px;padding-left:15px;padding-right:15px}.icon_box_01 h3{font-size:28px;line-height:36px}}@media (min-width:768px) and (max-width:991px){.icon_box_01{margin-bottom:30px}.abc_left{padding-left:20px;margin-bottom:30px}}@media (max-width:767px){.featureSection2{margin-top:-100px}.bigHeading{letter-spacing:0}.icon_box_01{margin-bottom:30px}.abc_left{padding:0 15px;margin-bottom:30px}.aboutCompanys h2{font-size:60px;line-height:65px}.aboutCompanys{padding-bottom:100px}}</style>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="print" onload="this.media='all'">
         <link rel="stylesheet" type="text/css" href="css/fontawesome-all.css" media="print" onload="this.media='all'">
         <link rel="stylesheet" type="text/css" href="css/line-awesome.css" media="print" onload="this.media='all'">
@@ -30,8 +31,8 @@
         <meta name="description" content="Final Year B.C.A Student at Maharaja Sayajirao University of Baroda | IoT and Java Web Developer | CEH | Transcriptionist | Freelancer">
         <meta name="author" content="Ebenezer Isaac">
         <meta name="theme-color" content="#FF5E14">
-        <meta name="keywords" content="bharat hub services, bharathubservices, industrial goods transportation, truck driver vadodara, recyclable waste vadodara, goods transportation vadodara">
-        <meta property="og:title" content="Home | Bharat Hub Services">
+        <meta name="keywords" content="<?php echo $data["title"]; ?>, bharathubservices, <?php echo $data["service1"]; ?>, truck driver vadodara, recyclable waste vadodara, goods transportation vadodara">
+        <meta property="og:title" content="Home | <?php echo $data["title"]; ?>">
         <meta property="og:site_name" content="Click To Know More">
         <meta property="og:url" content="https://bharathubservices.com">
         <meta property="og:description" content="Transportation &amp; Labor">
@@ -55,7 +56,7 @@
         </li>
         <li><a href="contact.php">Contact</a></li>
         <li><a target="_blank" href="BharatHubServices.pdf">Brochure</a></li>
-        <?php include "post-header.html";?>
+        <?php include "post-header.php";?>
 
         <section class="slider_02">
             <div class="rev_slider_wrapper">
@@ -90,7 +91,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; white-space: nowrap; text-transform: capitalize;">Bharat Hub Services</div>
+                                 style="z-index: 5; white-space: nowrap; text-transform: capitalize;"><?php echo $data["index_heading1"]; ?></div>
                             <div class="tp-caption  tp-resizeme"
                                  data-x="['center','center','center','center']" 
                                  data-hoffset="['0','0','0','0']" 
@@ -118,7 +119,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; white-space: nowrap; text-transform: capitalize;">Transportation</div>
+                                 style="z-index: 5; white-space: nowrap; text-transform: capitalize;"><?php echo $data["index_subheading1"]; ?></div>
 
                         </li>
                         <li data-index="rs-3046" data-transition="random" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500"  data-thumb="images/labor.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
@@ -150,7 +151,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; white-space: nowrap; text-transform: capitalize;">Bharat Hub Services</div>
+                                 style="z-index: 5; white-space: nowrap; text-transform: capitalize;"><?php echo $data["index_heading2"]; ?></div>
                             <div class="tp-caption  tp-resizeme"
                                  data-x="['center','center','center','center']" 
                                  data-hoffset="['0','0','0','0']" 
@@ -178,7 +179,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 5; white-space: nowrap; text-transform: capitalize;">Labor Force</div>
+                                 style="z-index: 5; white-space: nowrap; text-transform: capitalize;"><?php echo $data["index_subheading2"]; ?></div>
                         </li>
                     </ul>
                 </div>
@@ -195,7 +196,7 @@
                             <span></span>
                             <h3>Industrial Goods <br> Transportation</h3>
                             <p>
-                                We provide transportation of goods to all kinds of industries 
+                                <?php echo $data["index_desc_service1"]; ?>
                             </p>
                         </div>
                     </div>
@@ -206,7 +207,7 @@
                             <span></span>
                             <h3>Labor Force <br> Provision</h3>
                             <p>
-                                We help industries with their labor force requirements
+                                <?php echo $data["index_desc_service2"]; ?>
                             </p>
                         </div>
                     </div>
@@ -217,7 +218,7 @@
                             <span></span>
                             <h3>Recyclable Waste <br> Transportation</h3>
                             <p>
-                                We provide transportation for recyclable wastes from industries
+                               <?php echo $data["index_desc_service3"]; ?>
                             </p>
                         </div>
                     </div>
@@ -233,16 +234,15 @@
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="abc_left">
-                                        <h5>25+ Years of Experience</h5>
+                                        <h5><?php echo $data["index_summary_subheading"]; ?></h5>
                                         <h2>
-                                            Concerted Efforts
-                                            To Serve Better.
+                                            <?php echo $data["index_summary_heading"]; ?>
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <p style="white-space:wrap;">
-                                        Our Government recognized company is renowned for providing transportational services for industrial goods for many years. To encourage a green and Swatch India, we also provide transportation of recyclable waste. Customer satisfaction being our prime goal, we resolve all customer issues within 24 hours. <br><br>To ensure safety of our customers during the ongoing Covid-19 pandemic, we ensure our transport vehicle drivers are not infected. We check their temperatures twice to make sure they are safe before a delivery. 
+                                        <?php echo $data["index_summary_text"]; ?>
                                     </p>                                   
                                 </div>
                             </div>
@@ -251,53 +251,6 @@
                 </div>
             </div>
         </section>
-		
-        <?php include "footer.html";?>
-        <!-- Include All JS -->
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/bootstrap.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/fontawesome-all.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/line-awesome.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/icofont.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/slick.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/animate.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/magnific-popup.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/preset.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/settings.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/navigation.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/theme.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/responsive.css"></noscript>
-
-    
-    <noscript><link rel="stylesheet" type="text/css" href="css/presets/color1.css" id="colorChange"></noscript>
-
+        <?php include "footer.php";?>
     </body>
 </html>

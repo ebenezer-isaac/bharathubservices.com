@@ -1328,7 +1328,7 @@ License URI:
 .straceImg{
     position: relative;
     height: 100%;
-    background: url(../images/home/3.jpg) no-repeat center center / cover;
+    background: url(../images/home/about.jpg) no-repeat center center / cover;
 }
 .straceImg2{
     position: relative;
@@ -2097,7 +2097,6 @@ License URI:
 }
 .aboutCompanys{
     position: relative;
-    background: url(../images/bg/3.jpg) repeat;
     border: 10px solid #f3f3ff;
     padding: 87px 0 77px;
 }
@@ -3393,7 +3392,7 @@ License URI:
     background: url(../images/team/s2.jpg);
 }
 .icItem.ict3{
-    background: url(../images/team/s3.jpg);
+    background: url(../images/team/sabout.jpg);
 }
 .imgCarousel .carousel-indicators{
     position: absolute;
