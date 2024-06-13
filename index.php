@@ -34,9 +34,9 @@
         <meta name="keywords" content="<?php echo $data["title"]; ?>, bharathubservices, <?php echo $data["service1"]; ?>, truck driver vadodara, recyclable waste vadodara, goods transportation vadodara">
         <meta property="og:title" content="Home | <?php echo $data["title"]; ?>">
         <meta property="og:site_name" content="Click To Know More">
-        <meta property="og:url" content="https://bharathubservices.com">
+        <meta property="og:url" content="https://demo.mycrolinks.com/bharathubservices.com">
         <meta property="og:description" content="Transportation &amp; Labor">
-        <meta property="og:image" content="https://bharathubservices.com/images/favicon.png">
+        <meta property="og:image" content="https://demo.mycrolinks.com/bharathubservices.com/images/favicon.png">
         <meta property="og:image:width" content="650">
         <meta property="og:image:height" content="650">
         <meta property="og:type" content="website">
