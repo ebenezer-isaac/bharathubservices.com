@@ -105,6 +105,6 @@
         
         var d = new Date();
         var curr_year = d.getFullYear();
-        document.getElementById("copyrights").innerHTML = "Copyright By &COPY; <?php echo $data["title"]; ?> - "+curr_year+"<br><a href='https://ebenezer-isaac.com'>Website Designed and Maintained by Ebenezer Isaac</a>";
+        document.getElementById("copyrights").innerHTML = "Copyright By &COPY; <?php echo $data["title"]; ?> - "+curr_year+"<br><a href='https://mycrolinks.com'>Website Designed and Maintained by MycroLinks</a>";
     });
 </script>
