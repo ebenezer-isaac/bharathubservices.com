@@ -184,7 +184,7 @@
                 <div class="row">
                     <div class="col-xl-12 noPadding">
                         <div class="gmap">
-                            <iframe id="gmap_canvas" src="https://www.google.com/maps/embed/v1/place?q=place_id:<?php echo $data["contact_map_placeID"]; ?>&key=AIzaSyALdABFwL2JcF9Jb4WlXwakvD2UFQ47eGg" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29531.19878451534!2d73.18652429385116!3d22.30071285594308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc5cb7933b293%3A0xbb40b6aaa3c6034e!2sBharat%20Hub%20Services!5e0!3m2!1sen!2sin!4v1718297385366!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
