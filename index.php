@@ -698,7 +698,7 @@
 </body>
 <?php
 $page = "BharatHubServices";
-include "logger.php";
+include "../web-traffic-analysis/logger.php";
 ?>
 
 </html>
